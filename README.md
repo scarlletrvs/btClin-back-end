@@ -1,2 +1,19 @@
-# boilerplate-node-ts-prisma
-Boilerplate simples para criação de API'S com node-ts-express-prisma
+
+# BtClin
+
+Plataforma para agendar consultas médicas.
+
+
+
+#  Instalação Back 
+
+Instale my-project com npm
+
+```bash
+  npm install 
+  npx prisma migrate dev 
+  npm run dev 
+```
+
+
+    
