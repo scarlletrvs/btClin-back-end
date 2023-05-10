@@ -1,0 +1,23 @@
+// conexões
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+// Tabelas Banco de dados 
+
+model consultas {
+  id   String @id @default(uuid())
+  nome String 
+  cpf String
+  numerocarteira String 
+  especialidademedica String
+  data String 
+  hora String 
+
+
+}
